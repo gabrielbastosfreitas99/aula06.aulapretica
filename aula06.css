@@ -1,28 +1,60 @@
 header {
-    /*COR DE FUNDO DO CABEÇARIO  */
-    background-color: #9e0b41;
-    /* ALINHAMENTO DO TEXTO */
-    text-align: center;
-    /* COR DA LETRA */
-    color: #181419;
-    /* TAMANHO/PREENCIMENTO DO CABEÇARIO */
-    padding: 25px;
+    background-color: #181419;
+    /* cor de fundo do cabeçalho */
+    color: #cc3e18;
+    /* alinhamento do texto */
+    padding: 10px;
+    /* tamanho/ preenchimento ddo cabeçalho */
+    /* responsavel por tornar od itens flex e deixar lodo a lado */
+    display: flex;
+    justify-content: center;
+    /* organisação dos conteudos dentro do cabeçalho */
+    align-items: center;
+    gap: 30px;
+}
+
+header h1 {
+    color: #cc3e18;
+    /* sempre cor da letra  */
+    font-size: 30px;
+    /* sempre para tamanho de letras */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header img {
+    width: 70px;
 }
 
 /* MEIO DA PAGINA */
 .gabriel {
     background-color: #4a073c;
-    padding: 150px;
+    padding: 110px;/*preencimento da sesssão  */
+    display: flex; /*deixando flex/ lado a lado*/
+    justify-content: center; /*justificando o conteudo ao centro*/
+    align-items: center; /*alinhando os itens ao centro*/
+    gap: 30px; /*espaçco/respiro entre os itens*/
 }
 
 .bastos {
     background-color: #cc3e18;
-    padding: 150px;
+    padding: 110px;
+    text-align: center;
+}
+
+.bastos i{
+    font-size: 50px;
+    color: #181419;
 }
 
 .freitas {
-    background-color: #f0971c;
-    padding: 150px;
+    background-image: url(imagem/cafe-1869656_1280.jpg); /*caminho da imagem*/
+    background-position: center bottom; /*posiçao da imagem*/
+    background-size: cover; /*ptreengimento total da imagem*/
+    padding: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 /* RODAPÉ */
